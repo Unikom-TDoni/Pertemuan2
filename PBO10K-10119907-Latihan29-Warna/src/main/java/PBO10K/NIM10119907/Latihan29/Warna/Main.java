@@ -27,6 +27,7 @@ public class Main {
         final String KUNING = "\u001B[33m";
         final String BIRU = "\u001B[34m";
         final String UNGU = "\u001B[35m";
+        final String BIRUMUDA = "\u001B[36m";
         final String PUTIH = "\u001B[37m";
         
         final String BGMERAH = "\u001B[41m";
@@ -89,7 +90,8 @@ public class Main {
             "Menjunjung Tinggi Suatu Nilai Toleransi Dan Kepercayaan"
         };
 
-        System.out.println("Yuk Check Kepribadian Dari Warna Favoritmu\n");
+        System.out.println(MERAH + "YUK " + HIJAU + "CHECK " + KUNING + 
+                "KEPRIBADIANMU " + BIRUMUDA + "DARI " + UNGU + "WARNA " + BIRU + "FAVORITMU \n" + RESET);
         System.out.printf("%s %s \tMERAH\t %s%n",BGMERAH, PUTIH, RESET);
         System.out.printf("%s %s \tHIJAU\t %s%n",BGHIJAU, PUTIH, RESET);
         System.out.printf("%s %s \tKUNING\t %s%n",BGKUNING, PUTIH, RESET);
